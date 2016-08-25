@@ -1,8 +1,6 @@
 name: Alpha
-description: Alphs template for Jekyll
-baseurl: '/Alpha-Jekyll-Theme'
+description: Alpha template for Jekyll
 
 url: "http://localhost:4000"
-
+gems: [jekyll-paginate]
 paginate: 10
-
