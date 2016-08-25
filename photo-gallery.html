@@ -1,0 +1,48 @@
+---
+layout: default
+images:
+  - image_path: http://placehold.it/400x300
+    title: Apple Pie
+  - image_path: http://placehold.it/400x300
+    title: Birthday Cake
+  - image_path: http://placehold.it/400x300
+    title: Black Forest
+  - image_path: http://placehold.it/400x300
+    title: Brownie
+  - image_path: http://placehold.it/400x300
+    title: Cheese Cake
+  - image_path: http://placehold.it/400x300
+    title: Chocolate Cake
+  - image_path: http://placehold.it/400x300
+    title: Fruit Cake
+  - image_path: http://placehold.it/400x300
+    title: Lamington
+  - image_path: http://placehold.it/400x300
+    title: Lemon Cake
+---
+
+<style type="text/css">
+  .photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 2px 2px;
+  }
+  .photo-gallery .ul .image {
+    border-bottom: 5px;
+    border color: blue;
+
+      }
+
+</style>
+<div class="">
+<section class="box special">
+<h1>GALERI RESTORASI</h1>
+<br>
+<div class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{tittle.image_path}}"/></li>
+  {% endfor %}
+</ul>
+</section>
