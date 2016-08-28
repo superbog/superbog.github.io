@@ -3,14 +3,15 @@ title: Order Restorasi
 layout: contact
 ---
 
-
-<script src="https://cdn.jotfor.ms/js/vendor/imageinfo.js?v=3.3.14700" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/file-uploader/fileuploader.js?v=3.3.14700"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.14711" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.14711" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/imageinfo.js?v=3.3.14711" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/file-uploader/fileuploader.js?v=3.3.14711"></script>
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.14700" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.14711" type="text/javascript"></script>
 <script type="text/javascript">
    JotForm.init(function(){
-      JotForm.initCaptcha('input_7');
+      JotForm.setPhoneMaskingValidator( 'input_6_full', '#### #### ####' );
 	JotForm.clearFieldOnHide="disable";
       setTimeout(function() {
           JotForm.initMultipleUploads();
@@ -18,10 +19,10 @@ layout: contact
 	JotForm.onSubmissionError="jumpToFirstError";
    });
 </script>
-<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.14700" rel="stylesheet" type="text/css" />
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.14700" />
-<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.14700" />
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?"/>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.14711" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.14711" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.14711" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/548957a3700cc4ae108b4567.css?themeRevisionID=5731e817977cdf046d8b4567"/>
 <style type="text/css">
     .form-label-left{
         width:150px !important;
@@ -34,8 +35,10 @@ layout: contact
         width:150px !important;
     }
     .form-all{
-        width:650px;
-        color:#333 !important;
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
     }
     .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
         color: #555;
@@ -43,14 +46,21 @@ layout: contact
 
 </style>
 
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-carbon.css?3.3.14700"/>
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-black_blue.css?3.3.14700"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-big_white.css?3.3.14711"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-black_blue.css?3.3.14711"/>
 <form class="jotform-form" action="https://submit.jotform.me/submit/62368102793458/" method="post" enctype="multipart/form-data" name="form_62368102793458" id="62368102793458" accept-charset="utf-8">
   <input type="hidden" name="formID" value="62368102793458" />
   <div class="form-all">
     <ul class="form-section page-section">
+      <li class="form-line" data-type="control_text" id="id_9">
+        <div id="cid_9" class="form-input-wide">
+          <div id="text_9" class="form-html">
+            <p>Silakan isi form dibawah ini untuk mendapatkan perkiraan pengerjaan restorasi anda</p>
+          </div>
+        </div>
+      </li>
       <li class="form-line jf-required" data-type="control_fullname" id="id_4">
-        <label class="form-label form-label-left form-label-auto" id="label_4" for="input_4">
+        <label class="form-label form-label-left" id="label_4" for="input_4">
           Nama Lengkap
           <span class="form-required">
             *
@@ -68,7 +78,7 @@ layout: contact
         </div>
       </li>
       <li class="form-line jf-required" data-type="control_email" id="id_5">
-        <label class="form-label form-label-left form-label-auto" id="label_5" for="input_5">
+        <label class="form-label form-label-left" id="label_5" for="input_5">
           E-mail
           <span class="form-required">
             *
@@ -79,7 +89,7 @@ layout: contact
         </div>
       </li>
       <li class="form-line jf-required" data-type="control_phone" id="id_6">
-        <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6">
+        <label class="form-label form-label-left" id="label_6" for="input_6">
           No HP
           <span class="form-required">
             *
@@ -87,15 +97,8 @@ layout: contact
         </label>
         <div id="cid_6" class="form-input jf-required">
           <span class="form-sub-label-container" style="vertical-align: top">
-            <input class="form-textbox validate[required]" type="tel" name="q6_phoneNumber[area]" id="input_6_area" size="3">
-            <span class="phone-separate">
-              &nbsp;-
-            </span>
-            <label class="form-sub-label" for="input_6_area" id="sublabel_area" style="min-height: 13px;">  </label>
-          </span>
-          <span class="form-sub-label-container" style="vertical-align: top">
-            <input class="form-textbox validate[required]" type="tel" name="q6_phoneNumber[phone]" id="input_6_phone" size="8">
-            <label class="form-sub-label" for="input_6_phone" id="sublabel_phone" style="min-height: 13px;">  </label>
+            <input data-type="mask-number" masked="true" placeholder="" class="mask-phone-number form-textbox validate[required, Fill Mask]" type="tel" name="q6_phoneNumber[full]" id="input_6_full" autocomplete="off">
+            <label class="form-sub-label" for="input_6_full" id="sublabel_masked" style="min-height: 13px;">  </label>
           </span>
         </div>
       </li>
@@ -110,25 +113,48 @@ layout: contact
           <div class="qq-uploader-buttonText-value">
             Upload
           </div>
-          <input class="form-submit-button-carbon form-upload-multiple validate[required]" type="file" id="input_8" name="q8_uploadFoto[]" multiple="multiple" data-imagevalidate="yes" file-accept="pdf, zip, jpg, jpeg, png, gif" file-maxsize="1024" file-minsize="0" file-limit="4" />
+          <input class="form-submit-button-big_white form-upload-multiple validate[required]" type="file" id="input_8" name="q8_uploadFoto[]" multiple="multiple" data-imagevalidate="yes" file-accept="pdf, zip, jpg, jpeg, png, gif" file-maxsize="1024" file-minsize="0" file-limit="4" />
         </div>
       </li>
       <li class="form-line jf-required" data-type="control_captcha" id="id_7">
-        <label class="form-label form-label-left form-label-auto" id="label_7" for="input_7">
-          Enter the message as it's shown
+        <label class="form-label form-label-left" id="label_7" for="input_7">
+          Ketik kode yang tertera
           <span class="form-required">
             *
           </span>
         </label>
         <div id="cid_7" class="form-input jf-required">
-          <div class="form-captcha">
-            <label for="input_7"> <img alt="Captcha - Reload if it's not displayed" id="input_7_captcha" class="form-captcha-image" style="background:url(https://cdn.jotfor.ms/images/loader-big.gif) no-repeat center;" src="https://cdn.jotfor.ms/images/blank.gif" width="150" height="41" /> </label>
-            <div style="white-space:nowrap;">
-              <input type="text" id="input_7" class="form-textbox validate[required]" name="captcha" style="width:130px;" />
-              <img src="https://cdn.jotfor.ms/images/reload.png" alt="Reload" align="absmiddle" style="cursor:pointer" onclick="JotForm.reloadCaptcha('input_7');" />
-              <input type="hidden" name="captcha_id" id="input_7_captcha_id" value="0" />
-            </div>
+          <script type="text/javascript" src="//www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+          <div id="recaptcha_input_7">
           </div>
+          <script type="text/javascript">
+          var rc_script_tag = document.createElement('script'),
+  rc_init_func = function()
+  {
+    Recaptcha.create("6Ld9UAgAAAAAAMon8zjt30tEZiGQZ4IIuWXLt1ky", "recaptcha_input_7", {
+      theme: "clean",
+      callback: function()
+      {
+        $("recaptcha_response_field").addClassName("validate[required]");
+        JotForm.validator()
+      }
+    });
+  }
+rc_script_tag.src = "//www.google.com/recaptcha/api/js/recaptcha_ajax.js";
+rc_script_tag.type = 'text/javascript';
+rc_script_tag.onload = function()
+{
+  rc_init_func.call();
+};
+rc_script_tag.onreadystatechange = function()
+{
+  if (rc_script_tag.readyState == 'loaded' || rc_script_tag.readyState == 'complete')
+  {
+    rc_init_func.call();
+  }
+};
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(rc_script_tag);
+          </script>
         </div>
       </li>
       <li class="form-line" data-type="control_button" id="id_2">

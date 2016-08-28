@@ -161,7 +161,7 @@
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header p {
@@ -487,6 +487,7 @@
 		.box.special {
 			text-align: center;
 		}
+
 
 		.box .image.featured {
 			border-radius: 0;
