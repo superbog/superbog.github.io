@@ -1,0 +1,26 @@
+- id: gallery1
+  description: This is the first gallery
+  imagefolder: /assets/images/portfolio
+  images:
+  - name: albumtua-hasil-restorasi-foto-dan-pewarnaan-1.jpg
+    thumb: albumtua-hasil-restorasi-foto-dan-pewarnaan-1.jpg
+    text: The first image
+  - name: albumtua-hasil-restorasi-foto-dan-pewarnaan-2.jpg
+    thumb: albumtua-hasil-restorasi-foto-dan-pewarnaan-2.jpg
+    text: The first image
+  - name: albumtua-hasil-restorasi-foto-dan-pewarnaan-3.jpg
+    thumb: albumtua-hasil-restorasi-foto-dan-pewarnaan-3.jpg
+    text: The first image
+- id: gallery2
+  description: This is the second gallery
+  imagefolder: /assets/images
+  images:
+  - name: albumtua-hasil-restorasi-foto-dan-pewarnaan-1.jpg
+    thumb: albumtua-hasil-restorasi-foto-dan-pewarnaan-1.jpg
+    text: The first image
+  - name: albumtua-hasil-restorasi-foto-dan-pewarnaan-2.jpg
+    thumb: albumtua-hasil-restorasi-foto-dan-pewarnaan-2.jpg
+    text: The first image
+  - name: albumtua-hasil-restorasi-foto-dan-pewarnaan-3.jpg
+    thumb: albumtua-hasil-restorasi-foto-dan-pewarnaan-3.jpg
+    text: The first image
