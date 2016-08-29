@@ -1,6 +1,6 @@
 name: Albumtua
 description: Jasa restorasi foto tua
 
-url: "http://localhost:4000"
+url: "http://albumtua.com"
 gems: [jekyll-paginate]
 paginate: 10
