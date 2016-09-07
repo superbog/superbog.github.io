@@ -4,3 +4,6 @@ description: Jasa restorasi foto tua
 url: "http://albumtua.com"
 gems: [jekyll-paginate]
 paginate: 10
+
+# Google services
+google_analytics: UA-83809539-1
