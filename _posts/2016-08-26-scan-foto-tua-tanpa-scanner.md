@@ -1,7 +1,9 @@
 ---
 title: Melakukan scan foto tua tanpa scanner
+date: 2016-08-26 00:00:00 Z
 layout: post
 ---
+
 >Melakukan scanning foto tua tanpa scanner. Anda hanya membutuhkan kamera digital dengan autofokus beserta tripod, papan datar, double tape, dan pencahayaan ruangan yang bagus.
 
 <p>Memang tidak semudah menggunakan scanner, tapi jika dilakukan dengan benar cara ini dapat menghasilkan hasil foto digital yang tidak kalah dibanding jika menggunakan scanner.</p>

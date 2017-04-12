@@ -1,7 +1,9 @@
 ---
 title: Pentingnya Restorasi Foto Tua
+date: 2016-08-26 00:00:00 Z
 layout: post
 ---
+
 >Restorasi foto bukan sekedar edit foto biasa
 
 Restorasi foto tua bukan hanya sekedar mengedit foto tapi juga untuk mengembalikan kenangan lama anda. Foto tua menjadi sarana nostalgia anda tentang kejadian di masa lampau. Tidak seperti foto digital saat ini yang tak akan pernah pudar selama anda masih memiliki file asli foto. Foto lama sangat rapuh. Kondisi fisik foto akan semakin buruk seiring berjalannya waktu.
