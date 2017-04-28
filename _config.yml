@@ -1,6 +1,7 @@
 ---
 title: Superbog.Github.Io
 timezone: UTC
+plugins_dir: [CssMinify]
 collections:
   posts:
     title: Posts
