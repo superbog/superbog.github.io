@@ -1,7 +1,6 @@
 ---
 title: Superbog.Github.Io
 timezone: UTC
-plugins_dir: [CssMinify]
 collections:
   posts:
     title: Posts
@@ -9,6 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+plugins_dir:
+- CssMinify
 name: Albumtua
 description: Jasa restorasi foto tua
 url: http://albumtua.com
