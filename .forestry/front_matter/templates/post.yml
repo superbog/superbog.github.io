@@ -2,4 +2,8 @@
 label: Post
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  label: Bisakah foto tua diperbaiki
+  name: bisakah_foto_tua_diperbaiki
+  description: Tidak semua foto tua rusak diperbaiki. Pahami perbedaannya
